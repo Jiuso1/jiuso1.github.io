@@ -63,8 +63,8 @@ int main(){
     printf("Proceso A: Mi PID es %d.\n",pidA);
     printf("Proceso A: El PID de B es %d y el PID de C es %d.\n",pidB,pidC);
     //Esperaremos a B y a C para morir, no lo pone en la práctica pero creo que es conveniente.
-    wait(&pidB);
-    wait(&pidC);
+    waitpid(pidB,NULL,0);
+    waitpid(pidC,NULL,0);
     printf("Proceso A: Dame 4 segundos y me muero.\n");
     sleep(4);
     printf("Proceso A: Me mori. F.\n");
