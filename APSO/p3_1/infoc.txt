@@ -1,2 +1,0 @@
-Proceso C: Saludos terricola. Soy muchas cosas, pero principalmente soy el proceso C.
-Proceso C: Mi PID es 19097 y el PID de A es 19095.

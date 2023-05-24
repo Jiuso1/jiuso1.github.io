@@ -1,3 +1,0 @@
-B: Hola, me da verguenza hablarte, irradias belleza.
-B: Soy el proceso B, saludos navegante.
-B: Mi PID es 14231, el PID de A es 14230 y el PID de C es 14233.
