@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <title>Onuba</title>
+    <style>
+        body {
+            background-color: #000000;
+            /*
+            Photo by Felix Mittermeier from Pexels:
+            https://www.pexels.com/photo/silhouette-photo-of-person-957962/
+            */
+            background-image: url("pexels-felix-mittermeier-957962-1920x1080.jpg");
+            background-repeat: no-repeat;
+        }
+
+        .cuadrado1 {
+            background-color: blue;
+            width: 15em;
+            height: 15em;
+        }
+
+        .cuadrado2 {
+            background-color: green;
+            width: 15em;
+            height: 15em;
+        }
+
+        .cuadrado3 {
+            background-color: blueviolet;
+            width: 15em;
+            height: 15em;
+        }
+
+        .cuadrado4 {
+            background-color: teal;
+            width: 15em;
+            height: 15em;
+        }
+
+        .dato {
+            font-family: 'Segoe UI';
+            font-size: 2em;
+            color: white;
+            text-align: center;
+        }
+
+        .tablita {
+            padding-top: 4em;
+            padding-left: 10em;
+        }
+
+        /*
+        https://www.w3schools.com/csS/css_navbar_horizontal.asp
+        */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 3em;
+            margin-left: 12em;
+        }
+
+        li {
+            display: inline;
+            margin-left: 1em;
+            color: white;
+            font-size: 3em;
+            font-family: 'Segoe UI';
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .fotografo {
+            margin-top: 35em;
+            margin-right: 1.5em;
+            text-align: right;
+        }
+
+        .enlace {
+            font-family: "Segoe UI";
+            font-size: 2em;
+            color: white;
+        }
+
+        .seleccion {
+            display: inline-block;
+            text-shadow: none;
+            font-weight: 600;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0px;
+            padding-top: 3em;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div class="seleccion">carrera</div>
+            </li>
+            <li><a href="friends.html">friends</a></li>
+            <li><a href="mierdiapuntes.html">mierdiapuntes</a></li>
+        </ul>
+    </nav>
+    <table class="tablita">
+        <tr>
+            <td>
+                <a href="https://aulasvirtuales.uhu.es/course/view.php?id=786">
+                    <div class="cuadrado1">
+                        <img src="https://cdn.lo4d.com/t/icon/128/microsoft-framework-4-extended.png">
+                        <p class="dato">Apuntes de DIU</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="https://www.netflix.com/">
+                    <div class="cuadrado2">
+                        <img
+                            src="https://yt3.ggpht.com/a/AATXAJwbxNhjnCAgYg79er_DqwYs8trW_1ljoTY0JLwbuw=s100-c-k-c0xffffffff-no-rj-mo">
+                        <p class="dato">Netflix</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="https://www.hbomax.com/es/es">
+                    <div class="cuadrado3">
+                        <img src="https://cdn.alloksoft.com/images/thumbs/com.hbo.hbonow.png">
+                        <p class="dato">HBO</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="https://flixole.com/">
+                    <div class="cuadrado4">
+                        <img
+                            src="https://play-lh.googleusercontent.com/0JdVwzpZBXKuMFEVnu98nj5CPxRu_16p2a-gHqUQIRkCq8n1FSxKwTbU7qf-lVl6dS4=s180">
+                        <p class="dato">FlixOlé</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <p class="fotografo"><a class="enlace" href="https://www.pexels.com/photo/silhouette-photo-of-person-957962/">foto
+            realizada por
+            Felix
+            Mittermeier</a>
+    </p>
+</body>
+
+</html>
