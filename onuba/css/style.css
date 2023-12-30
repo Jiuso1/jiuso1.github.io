@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(45deg, #000000, #002f95);
+  background-size: 400% 400%;
+  animation: GradientBackground 10s ease infinite;
+  height: 100vh;
+}
+
+@keyframes GradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  color: white;
+  font-family: Inconsolata, monospace;
+  text-align: center;
+  font-size: 4rem;
+}
+p {
+  font-family: Inconsolata, monospace;
+  font-size: 2rem;
+  color: white;
+}
