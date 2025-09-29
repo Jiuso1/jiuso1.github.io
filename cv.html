@@ -12,7 +12,7 @@
   <body>
     <h1>CV</h1>
     <nav>
-      <table border="1">
+      <table>
         <tr>
           <td><a href="index.html">Inicio</a></td>
           <td><a href="biblioteca.html">Biblioteca</a></td>
@@ -22,23 +22,27 @@
         </tr>
       </table>
     </nav>
-    <picture>
-      <source srcset="fotos/fotoCV.avif" type="image/avif" />
-      <source srcset="fotos/fotoCV.jpeg" type="image/jpeg" />
-      <img
-        src="fotos/fotoCV.jpeg"
-        alt="Foto de Jesús García Gutiérrez en camisa blanca."
-        title="Foto de Jesús García Gutiérrez en camisa blanca."
-        loading="lazy"
-      />
+    <figure>
+      <picture>
+        <source srcset="fotos/fotoCV.avif" type="image/avif" />
+        <source srcset="fotos/fotoCV.jpeg" type="image/jpeg" />
+        <img
+          src="fotos/fotoCV.jpeg"
+          alt="Foto de Jesús García Gutiérrez en camisa blanca."
+          title="Foto de Jesús García Gutiérrez en camisa blanca."
+          loading="lazy"
+        />
+      </picture>
       <figcaption>Jesús García Gutiérrez</figcaption>
-    </picture>
+    </figure>
     <h2>Trayectoria académica</h2>
     <table>
       <thead>
-        <th scope="col">Título</th>
-        <th scope="col">Centro académico</th>
-        <th scope="col">Año de finalización</th>
+        <tr>
+          <th scope="col">Título</th>
+          <th scope="col">Centro académico</th>
+          <th scope="col">Año de finalización</th>
+        </tr>
       </thead>
       <tbody>
         <tr>
@@ -71,9 +75,11 @@
     <h2>Trayectoria profesional</h2>
     <table>
       <thead>
-        <th scope="col">Profesión</th>
-        <th scope="col">Organización</th>
-        <th scope="col">Fecha</th>
+        <tr>
+          <th scope="col">Profesión</th>
+          <th scope="col">Organización</th>
+          <th scope="col">Fecha</th>
+        </tr>
       </thead>
       <tbody>
         <tr>
@@ -87,6 +93,85 @@
         </tr>
       </tbody>
     </table>
+    <h2>Habilidades</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Nivel [1-5]</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Aprendizaje</th>
+          <td>*****</td>
+        </tr>
+        <tr>
+          <th scope="row">Java</th>
+          <td>*****</td>
+        </tr>
+        <tr>
+          <th scope="row">C++</th>
+          <td>****</td>
+        </tr>
+        <tr>
+          <th scope="row">HTML</th>
+          <td>****</td>
+        </tr>
+        <tr>
+          <th scope="row">Liderazgo</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Trabajo en equipo</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Ingeniería del Software</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Patrones de diseño</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Bases de datos (SQLite, Oracle, MySQL, ...)</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">SQL</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">C</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Machine Learning (scikit-learn)</th>
+          <td>**</td>
+        </tr>
+        <tr>
+          <th scope="row">Python</th>
+          <td>**</td>
+        </tr>
+        <tr>
+          <th scope="row">Qt</th>
+          <td>**</td>
+        </tr>
+        <tr>
+          <th scope="row">CSS</th>
+          <td>*</td>
+        </tr>
+        <tr>
+          <th scope="row">JavaScript</th>
+          <td>*</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Me apasiona tanto el mundo de las bases de datos como el mundo de la
+      ingeniería del software.
+    </p>
     <h2>Proyectos personales</h2>
     <ul>
       <li>
@@ -141,5 +226,16 @@
       humanos: empresas de defensa, empresas de manipulación política, empresas
       de explotación sexual, etc. Mis valores no se pueden comprar.
     </p>
+    <h2>Contacto</h2>
+    <address>
+      <a href="https://t.me/Jiuso">Telegram</a><br />
+      <a
+        href="https://signal.me/#eu/R4fkJ77EcpKYe0L2IlNnNkOX4WWsxzZsU7TZOfx_vqNfLcnFEHdIJ6rE-G38ZGTK"
+        >Signal</a
+      ><br />
+      <a href="mailto:jesus.garcia1@alu.uhu.es">jesus.garcia1@alu.uhu.es</a
+      ><br />
+      <a href="https://github.com/Jiuso1">GitHub</a>
+    </address>
   </body>
 </html>
