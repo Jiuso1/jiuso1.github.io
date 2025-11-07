@@ -1,0 +1,9 @@
+23/11/2024 | 23:27
+
+Quizás esta web es un ejemplo de obsesión por la eficiencia, lo reconozco. El estilo también expresa ideas, y esta web ha rechazado el estilo en pos de la eficiencia, frente a usar anuncios, cookies, CSS, frameworks... 
+
+A la hora de programar la web me encanta hacerlo en HTML puro, no pierdo el tiempo escribiendo CSS y en su lugar me centro en el contenido. Solo tengo que pensar en las palabras, no en el estilo.
+
+Si una web quiere tener tanto contenido como estilo, lo mejor que puede hacer es apostar por frameworks ligeros como Pico CSS (https://picocss.com/), Min (https://mincss.com/) o Pure CSS (https://pure-css.github.io/).
+Escribir CSS de buena calidad toma mucho tiempo, es mejor apostar por frameworks que ya han hecho este trabajo por nosotros. 
+Haciéndolo así ganamos tanto en tiempo de programación como en tiempo de carga.

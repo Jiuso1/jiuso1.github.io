@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>CV | Web de Jesús G.G.</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <!--La línea link previene la solicitud del favicon. ¡Gracias vog! Fuente: https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests-->
+    <meta name="color-scheme" content="dark light" />
+    <!--Modo oscuro. Fuente: https://btxx.org/posts/html-dark-mode/-->
+  </head>
+  <body>
+    <h1>CV</h1>
+    <nav>
+      <table>
+        <tr>
+          <td><a href="index.html">Inicio</a></td>
+          <td><a href="biblioteca.html">Biblioteca</a></td>
+          <td><a href="galeriaFotos.html">Galería de fotos</a></td>
+          <td><a href="cv.html">CV</a></td>
+          <td><a href="cvEnglish.html">CV (english)</a></td>
+        </tr>
+      </table>
+    </nav>
+    <figure>
+      <picture>
+        <source srcset="fotos/fotoCV.avif" type="image/avif" />
+        <source srcset="fotos/fotoCV.jpeg" type="image/jpeg" />
+        <img
+          src="fotos/fotoCV.jpeg"
+          alt="Foto de Jesús García Gutiérrez en camisa blanca."
+          title="Foto de Jesús García Gutiérrez en camisa blanca."
+          loading="lazy"
+        />
+      </picture>
+      <figcaption>Jesús García Gutiérrez</figcaption>
+    </figure>
+    <h2>Trayectoria académica</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Título</th>
+          <th scope="col">Centro académico</th>
+          <th scope="col">Año de finalización</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Bachillerato en Ciencias</th>
+          <td>IES Alto Conquero</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            Curso "IoT and Cybersecurity in Rural Environments: Trends and Best
+            Practices"
+          </th>
+          <td>Universidad Nacional de Educación a Distancia</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <th scope="row">Curso "Finanzas éticas para la economía social"</th>
+          <td>Universidad de Huelva</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            Grado en Ingeniería Informática (mención en Ingeniería del Software)
+          </th>
+          <td>Universidad de Huelva</td>
+          <td>2025</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Trayectoria profesional</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Profesión</th>
+          <th scope="col">Organización</th>
+          <th scope="col">Fecha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="row">
+            Profesor de clases particulares en programación (C, C++, Java...) e
+            ingeniería del software (patrones de diseño, ingeniería de
+            requisitos, UML...)
+          </th>
+          <td>Independiente</td>
+          <td>Septiembre de 2024 - Actualidad</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Habilidades</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Nivel [1-5]</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Aprendizaje</th>
+          <td>*****</td>
+        </tr>
+        <tr>
+          <th scope="row">Java</th>
+          <td>*****</td>
+        </tr>
+        <tr>
+          <th scope="row">C++</th>
+          <td>****</td>
+        </tr>
+        <tr>
+          <th scope="row">HTML</th>
+          <td>****</td>
+        </tr>
+        <tr>
+          <th scope="row">Liderazgo</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Trabajo en equipo</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Ingeniería del Software</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Patrones de diseño</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Bases de datos (SQLite, Oracle, MySQL, ...)</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">SQL</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">C</th>
+          <td>***</td>
+        </tr>
+        <tr>
+          <th scope="row">Machine Learning (scikit-learn)</th>
+          <td>**</td>
+        </tr>
+        <tr>
+          <th scope="row">Python</th>
+          <td>**</td>
+        </tr>
+        <tr>
+          <th scope="row">Qt</th>
+          <td>**</td>
+        </tr>
+        <tr>
+          <th scope="row">CSS</th>
+          <td>*</td>
+        </tr>
+        <tr>
+          <th scope="row">JavaScript</th>
+          <td>*</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Me apasiona tanto el mundo de las bases de datos como el mundo de la
+      ingeniería del software.
+    </p>
+    <h2>Proyectos personales</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/Jiuso1/Margaret">Margaret</a>: aplicación
+        que mide el tiempo de uso por programa en Windows.
+      </li>
+      <li>
+        <a href="https://github.com/Jiuso1/easyP754">easyP754</a>: aplicación
+        que muestra cómo se representa cualquier número real en la computación
+        actual.
+      </li>
+      <li>
+        <a href="https://jiuso1.github.io/">jiuso1.github.io</a>: web personal
+        simple.
+      </li>
+      <li>
+        <a href="https://fosfoyesos.info">fosfoyesos.info</a>: web de
+        divulgación científica sobre las balsas de fosfoyesos en Huelva.
+      </li>
+    </ul>
+    <h2>Agradecimientos profesionales</h2>
+    <p>
+      En primer lugar, quiero agradecer a Esther Elías Alonso, CEO y Co-Founder
+      de <a href="https://www.funtechrocket.education/">FunTech Rocket</a>, por
+      hacer posible mi primera entrevista profesional.
+    </p>
+    <p>
+      Quiero agradecer al gerente de
+      <a href="https://www.onlinehuelva.net/">Onlinehuelva</a> por sus consejos
+      y por su visión sobre la profesión informática en Huelva.
+    </p>
+    <p>
+      Quiero agradecer a
+      <a href="https://ventanasagroalimentarias.com/"
+        >Ventanas Agroalimentarias</a
+      >
+      por ayudarme en mi búsqueda de prácticas al difundir mi solicitud.
+    </p>
+    <p>
+      Por último, y no menos importante, quiero agradecer a todos mis alumnos.
+      Sus éxitos me hacen plenamente feliz.
+    </p>
+    <p>
+      Todas estas personas me dan fuerzas para seguir trabajando. El camino
+      meritocrático es exigente, pero también es más satisfactorio y mejor para
+      la sociedad.
+    </p>
+    <h2>Valores personales y profesionales</h2>
+    <p>
+      Se puede ganar dinero y hacer un bien a la sociedad. Es por ello que me
+      niego rotundamente a trabajar en empresas que incumplan los derechos
+      humanos: empresas de defensa, empresas de manipulación política, empresas
+      de explotación sexual, etc. Mis valores no se pueden comprar.
+    </p>
+    <h2>Contacto</h2>
+    <address>
+      <a href="mailto:jesus.garcia1@alu.uhu.es">jesus.garcia1@alu.uhu.es</a
+      ><br />
+      <a href="https://github.com/Jiuso1">GitHub</a><br />
+      <a href="https://t.me/Jiuso">Telegram</a><br />
+      <a
+        href="https://signal.me/#eu/R4fkJ77EcpKYe0L2IlNnNkOX4WWsxzZsU7TZOfx_vqNfLcnFEHdIJ6rE-G38ZGTK"
+        >Signal</a
+      ><br />
+    </address>
+  </body>
+</html>
