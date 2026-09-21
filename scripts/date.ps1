@@ -15,7 +15,7 @@ foreach ($fileObject in $fileObjectList) {
 	$file = $fileObject.File
 	$date = $fileObject.Date.ToString("dd/MM/yyyy")
 	Write-Host '<li>'
-	Write-Host "<a href=""textos/$file"">$file</a> | $date"
+	Write-Host "$date <a href=""textos/$file"">$file</a>"
 	Write-Host '</li>'
 }
 Write-Host '</ul>'
